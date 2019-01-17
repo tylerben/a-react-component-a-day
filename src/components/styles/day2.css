@@ -1,0 +1,41 @@
+.items {
+  background-color: #444;
+  padding: 1rem;
+  font-family: sans-serif;
+}
+
+.item {
+  background-color: #EEE;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.item span {
+  display: inline-block;
+}
+
+.item .title {
+  width: 80%;
+}
+
+.item .up,
+.item .down {
+  margin: 8px;
+  padding: 8px;
+  text-align: right;
+  border-radius: 8px;
+}
+
+.item .up:hover,
+.item .down:hover {
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+.item .up {
+  background-color: #92e9a9;
+}
+
+.item .down {
+  background-color: #a3b5fb;
+}

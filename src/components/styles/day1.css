@@ -1,0 +1,25 @@
+.counter { 
+  font-family: sans-serif;
+}
+
+.count {
+  font-size: 3.6rem;
+}
+
+.counter button {
+  border-radius: 8px;
+  border: none;
+  display: inline-block;
+  margin-top: 25px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+.add-btn {
+  background-color: #a2cbff;
+}
+
+.minus-btn {
+  background-color: #ffaede;
+}
