@@ -3,7 +3,10 @@ import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
+import 'material-design-icons/iconfont/material-icons.css';
 import './layout.css'
+import './styles/base.css'
+
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -19,20 +22,13 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div
-          style={{
-            margin: `0 auto`,
-            maxWidth: 960,
-            padding: `2rem`,
-            backgroundColor: `#FAFAFA`,
-          }}
-        >
+        <div className="page-content">
           {children}
-          <footer>
+          {/* <footer>
             © {new Date().getFullYear()}, Built with
             {` `}
             <a href="https://www.gatsbyjs.org">Gatsby</a>
-          </footer>
+          </footer> */}
         </div>
       </>
     )}

@@ -1,0 +1,73 @@
+.material-icons {
+  vertical-align: middle;
+}
+
+.material-icons:hover {
+  cursor: pointer;
+}
+
+.site-header {
+  /* text-align: center; */
+  font-weight: 300;
+  color: #4dc0a8;
+  border-bottom: 1px solid #DDD;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  text-transform: uppercase;
+}
+
+.page-content {
+  margin: 1rem auto;
+  margin-left: 25%;
+  margin-right: 5%;
+  padding: 1rem;
+  /* background-color: #FAFAFA; */
+}
+
+.page-title {
+  font-weight: 300;  
+  text-transform: uppercase;
+}
+
+.page-title::first-letter {
+  /* font-size: 2.25rem; */
+}
+
+.author-info {
+  margin-bottom: 2rem;
+  font-size: 0.86rem;
+  color: #717172;
+  font-weight: 300;
+}
+
+.author-avatar {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #77d0fb;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.8rem;
+}
+
+.author-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.component-description {
+  width: 32%;
+  display: inline-block;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  vertical-align: top;
+}
+
+.component-container {
+  background-color: #4dc0a8;
+  display: inline-block;
+  /* width: 45%; */
+  width: 65%;
+  margin-left: 3%;
+  /* position: fixed; */
+}

@@ -1,0 +1,65 @@
+.items {
+  background-color: #444;
+  padding: 1rem;
+  font-family: sans-serif;
+}
+
+.item {
+  background-color: #EEE;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.item span {
+  display: inline-block;
+}
+
+.item .title {
+  width: 80%;
+}
+
+.item .up,
+.item .down {
+  margin: 8px;
+  padding: 8px;
+  text-align: right;
+  border-radius: 8px;
+}
+
+.item .up:hover,
+.item .down:hover {
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+.item .up {
+  background-color: #92e9a9;
+}
+
+.item .down {
+  background-color: #a3b5fb;
+}
+
+.sort-btn,
+.add-new-btn {
+  border-radius: 8px;
+  border: none;
+  display: inline-block;
+  margin-top: 25px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+  padding: 10px;
+  background-color: #a2cbff;
+}
+
+.sort-btn:hover,
+.sort-btn:active,
+.sort-btn:target,
+.sort-btn:focus,
+.add-new-btn:hover,
+.add-new-btn:active,
+.add-new-btn:target,
+.add-new-btn:focus {
+  opacity: 0.85;
+  cursor: pointer;
+}

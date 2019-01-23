@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `A Component a day`,
+    title: `a Component a Day`,
     description: `This site serves as a test for Gatsby. I will be developing one simple page by day as a test.`,
     author: `Ben Tyler`,
   },
