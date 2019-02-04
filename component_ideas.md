@@ -14,7 +14,9 @@
 - [ ] List with styled-components
 - [ ] Basic To Do List
 - [ ] Editable To Do List
-- [ ] Sortabel To Do List
+- [X] Sortable To Do List (Day 4)
+- [ ] Move completed to do to done section
+- [ ] Add created at date to todo
 
 ## Navigation
 - [ ] Sidebar navigation menu
